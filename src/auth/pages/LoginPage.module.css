@@ -22,7 +22,7 @@ section img:hover {
 }
 
 .background {
-    background-image: url('public/marvel-vs-dc.png'); 
+    background-image: url('/marvel-vs-dc.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
