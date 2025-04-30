@@ -18,7 +18,8 @@ export const LoginPage = () => {
   }
 
   return (
-    <div className={`${styles.background} container mt-5`}>
+    <div className={styles['background-black']}>
+        <div className={`${styles.background} container`}>
       <h1>Login</h1>
       <hr />
 
@@ -51,5 +52,7 @@ export const LoginPage = () => {
         Login
       </button>
     </div>
+    </div>
+    
   )
 }
